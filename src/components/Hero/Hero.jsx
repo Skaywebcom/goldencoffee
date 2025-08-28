@@ -43,9 +43,9 @@ const Hero = () => {
                 className="relative"
               >
                 <div className='relative z-10 space-y-4'>
-                  <h1>Black Lifestyle Lovers.</h1>
+                  <h1>Blvck Tumbler</h1>
                   <h1 className='text-sm opacity-55 leading-loose'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed dolor provident, optio quidem possimus perspiciatis cupiditate odit fugiat necessitatibus sequi
+                    Bold, timeless coffee crafted for those who embrace the black lifestyle.
                   </h1>
                 </div>
                 <div className="absolute -top-6 -left-10 w-[250px] h-[180px] bg-gray-700/25"></div>
@@ -114,9 +114,9 @@ const Hero = () => {
                 </h1>
                 <div className="relative">
                   <div className='relative z-10 space-y-4'>
-                    <h1>Black Lifestyle Lovers.</h1>
+                    <h1>Pure Strength in Every Sip</h1>
                     <h1 className='text-sm opacity-55 leading-loose'>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed dolor provident, Sed dolor provident, Sed dolor provident,
+                      Smooth, rich, and unapologetically strong — a coffee that matches your drive.
                     </h1>
                   </div>
                   <div className="absolute -top-6 -left-10 w-[250px] h-[180px] bg-gray-700/25"></div>

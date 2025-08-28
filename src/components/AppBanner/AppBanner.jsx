@@ -13,10 +13,6 @@ const BannerStyle={
   width: "100%",
 }
 
-
-
-
-
 const AppBanner = () => {
   return <div className="container my-14">
     <div style={BannerStyle} className="sm:min-h-[400px] sm:flex sm:justify-end sm:items-center rounded-xl">
@@ -43,7 +39,7 @@ const AppBanner = () => {
                delay: 0.3, 
           }}
         className="text-center sm:px-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore tempora ipsam{" "}
+          Take your coffee experience anywhere. Order, track, and enjoy Blvck Tumbler at your fingertips.{" "}
         </motion.p>
         {/* image link */}
         <div 

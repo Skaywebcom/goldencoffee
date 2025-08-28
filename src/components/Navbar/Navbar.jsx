@@ -2,9 +2,6 @@ import React from "react";
 import { GiHamburgerMenu} from 'react-icons/gi';
 import { motion } from "framer-motion";
 
-
-
-
 const Navbar = ({sidebar, setSidebar}) => {
   return <nav className="absolute top-0 left-0 w-full pt-10 text-white z-[999]">
     <div className="container">
@@ -19,7 +16,7 @@ const Navbar = ({sidebar, setSidebar}) => {
              damping:10,
              delay: 0.2, 
              }}
-        className="text-2xl font-semibold uppercase"><span className="text-primary ">Coders</span>Coffee</motion.h1>
+        className="text-2xl font-semibold uppercase"><span className="text-primary ">Golden</span>Coffee</motion.h1>
         {/* Hamburger Menu section */}
         <motion.div
           initial={{ opacity: 0, y: -100}} 

@@ -25,9 +25,9 @@ const Footer = () => {
         }}
         
         className="space-y-6">
-          <h1 className="text-3xl font-bold uppercase">Coders Cafe</h1>
+          <h1 className="text-3xl font-bold uppercase">Golden Cafe</h1>
           <p className="text-sm max-w-[300px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolore quasi necessitatibus odit, cupiditate laborum rem laborum rem 
+            Awaken the Dark. Embrace the Taste.
           </p>
           <div className="">
             <p className="flex items-center gap-2 mt-2">
@@ -55,20 +55,26 @@ const Footer = () => {
             {/* First column section */}
             <div>
               <ul className="space-y-2">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Privacy Policy</li>
-              </ul>
+  <li className="group flex items-center gap-2 cursor-pointer transition-all duration-300 hover:translate-x-2">
+    <span className="hidden group-hover:inline-block w-2 h-2 rounded-full bg-white"></span>
+    Home
+  </li>
+  <li className="group flex items-center gap-2 cursor-pointer transition-all duration-300 hover:translate-x-2">
+    <span className="hidden group-hover:inline-block w-2 h-2 rounded-full bg-white"></span>
+    About
+  </li>
+  <li className="group flex items-center gap-2 cursor-pointer transition-all duration-300 hover:translate-x-2">
+    <span className="hidden group-hover:inline-block w-2 h-2 rounded-full bg-white"></span>
+    Contact Us
+  </li>
+  <li className="group flex items-center gap-2 cursor-pointer transition-all duration-300 hover:translate-x-2">
+    <span className="hidden group-hover:inline-block w-2 h-2 rounded-full bg-white"></span>
+    Privacy Policy
+  </li>
+</ul>
+
             </div>
-            <div>
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Privacy Policy</li>
-              </ul>
-            </div>
+            
             {/* second column section */}
           </div>
         </motion.div>
@@ -97,7 +103,7 @@ const Footer = () => {
       </div>
       {/* copyright section */}
       <p className="text-white text-center mt-8 pt-8 border-t-2">
-        Copyright &copy; 2024 Company Name. All rights reserved
+        Copyright &copy; 2025 Golden Coffee. All rights reserved
       </p>
     </div>
   </div>;

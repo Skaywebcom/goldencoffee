@@ -8,19 +8,19 @@ const serviceData =[
     id:1,
     image: Coffee1,
     title: "Black coffee",
-    substitle: "lorem ipsum Dolor sit amet, consecteur adipiscing elit."
+    substitle: "Pure and bold, made for those who love the authentic taste of coffee without compromise."
   },
   {
     id:2,
     image: Coffee3,
     title: "Hot coffee",
-    substitle: "lorem ipsum Dolor sit amet, consecteur adipiscing elit."
+    substitle: "Rich and comforting, brewed to warm your soul and energize your day."
   },
   {
     id:3,
     image: Coffee1,
     title: "cold coffee",
-    substitle: "lorem ipsum Dolor sit amet, consecteur adipiscing elit."
+    substitle: "Chilled, refreshing, and irresistibly smooth — the perfect pick-me-up anytime."
   },
 ];
 
@@ -75,7 +75,7 @@ const Services = () => {
         damping: 10,
         delay: 0.4,
       }}
-      className="text-sm opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aspernatur unde impedit id cumque provident assumenda enim neque illo omnis!</motion.p>
+      className="text-sm opacity-50">Awaken your senses with every sip — smooth, aromatic, and crafted to perfection.</motion.p>
     </div>
     {/* Card section */}
     <motion.div variants={containerVariants}
