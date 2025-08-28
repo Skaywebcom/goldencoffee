@@ -3,6 +3,8 @@ import '../../index.css';
 import Navbar from "../Navbar/Navbar";
 import { motion } from 'framer-motion';
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import BlackTumbler from "../../assets/black.png";
+
 
 const Hero = () => {
   const [sidebar, setSidebar] = React.useState(false);
@@ -63,7 +65,8 @@ const Hero = () => {
                   damping: 10,
                   delay: 0.4,
                 }}
-                src="src/assets/black.png" alt="Hero Image" className='relative z-40 h-[400px] md:h-[700px] img-shadow'
+                src={BlackTumbler}
+                alt="Hero Image" className='relative z-40 h-[400px] md:h-[700px] img-shadow'
               />
               {/* Orange circle ring */}
               <motion.div
