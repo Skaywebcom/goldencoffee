@@ -143,13 +143,13 @@ const Hero = () => {
                 {/* Line */}
                 <div className='w-[1px] h-[70px] bg-white'></div>
                 {/* Social Icons */}
-                <div className='inline-block p-2 rounded-full cursor-pointer border border-white'>
+                <div className='inline-block p-2 rounded-full cursor-pointer border border-white hover:text-[#1877F2] hover:border-[#1877F2] transition-colors duration-300'>
                   <FaFacebookF className='text-2xl' />
                 </div>
-                <div className='inline-block p-2 rounded-full cursor-pointer border border-white'>
+                <div className='inline-block p-2 rounded-full cursor-pointer border border-white hover:text-[#E4405F] hover:border-[#E4405F] transition-colors duration-300'>
                   <FaInstagram className='text-2xl' />
                 </div>
-                <div className='inline-block p-2 rounded-full cursor-pointer border border-white'>
+                <div className='inline-block p-2 rounded-full cursor-pointer border border-white hover:text-[#1DA1F2] hover:border-[#1DA1F2] transition-colors duration-300'>
                   <FaTwitter className='text-2xl' />
                 </div>
                 <div className='w-[1px] h-[70px] bg-white'></div>
